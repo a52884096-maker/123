@@ -11,6 +11,4 @@ while Start:
   print(f"Имя: {user_name}, Возраст: {user_data}")
   a = input("")
   if a == "Stop":
-    Start == False
-  else :
-    print("Введите Stop для остновки программы")
+    Start = False
